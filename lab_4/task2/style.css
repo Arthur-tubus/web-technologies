@@ -1,0 +1,21 @@
+*{
+text-align: center;
+}
+.cursive {
+    font-style: italic  ;
+}
+.bold-font{
+    font-weight: bold;
+}
+.red{
+color: red;
+}
+.underline {
+  text-decoration: underline; 
+}
+.cross-out{
+    text-decoration: line-through;  
+}
+.bg-yellow{
+    background-color: yellow;
+}

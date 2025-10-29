@@ -1,0 +1,35 @@
+
+*{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 40px; 
+}
+p{
+    color: green;            
+    text-align: center;
+}
+div{
+    text-align: justify;
+}
+.red-text{
+    color: red;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+#parshrift {
+    font-style: italic;   /* курсив */
+    font-weight: bold;    /* жирний шрифт */
+}
+.shadow-text {
+        text-shadow: 5px -5px 3px rgba(0, 0, 255, 0.5); 
+}
+.formatted-block {
+        text-decoration: line-through; 
+        text-transform: uppercase;     
+        text-indent: 50px;             
+}
+.interval{
+    letter-spacing: 30px;
+    word-spacing: 50px;
+}
