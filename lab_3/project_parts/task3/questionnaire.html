@@ -6,7 +6,121 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text">
+    <form action="submit.html" method="get">
+        <fieldset>
+
+            <p><label for="Name">Name<input type="text" placeholder="name" required></label></p>
+            <p><label for="Date">Date<input type="date" required></label></p>
+        
+            <p><label for="gender">Gender</label></p>
+            <p><input type="radio" name="gender">Man</p>
+            <p><input type="radio" name="gender">Woman</p>
+            <p><input type="radio" name="gender">Other</p>
+        
+            <p><label for="email">Email<input type="email" autocomplete="off" placeholder="abcdef@gmail.com"></label></p>
+            <p><label for="telephone">Telephone<input type="tel" placeholder="telephone" required></label></p>
+            <p><label for="password">Password<input type="password" placeholder="password" pattern="" required></label></p>
+            <p><label for="resetpassword">Reset password<input type="password"  placeholder="reset password" required></label></p>
+            
+            <p><label for="product">How often do you use our product/services?</label></p>
+            <p><input type="radio" name="Daily" checked>Daily </p>
+            <p><input type="radio" name="Weekly">Weekly </p>
+            <p><input type="radio" name="Monthly">Monthly </p>
+            <p><input type="radio" name="Rarely">Rarely  </p>
+            <p><input type="radio" name="Never">Never </p>
+        
+        
+            <p><label for="questionnaire">the purpose of the questionnaire:</label></p>
+            <p><textarea name="Comment" id="Comment" placeholder="Comment">Comment</textarea></p>
+   
+            <p><label for="find">where did you find out?</label></p>
+            <p><input type="checkbox">from friends</p>
+            <p><input type="checkbox">in the network</p>
+            <p><input type="checkbox">came across an ad</p>
+            <p><input type="checkbox">other</p>
+   
+   
+        </fieldset>
+
     
+
+
+    <label for="colorsky">the color of the sky:</label>
+    <p><select name="color" id="sky"> 
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green" selected>green</option>
+        <option value="yellow">yellow</option>
+        <option value="orange">orange</option>
+    </select></p>
+
+    <p><label for="favoritefruit">Your favorite fruit</label></p>
+    <p><select id="fruits" name="fruits" multiple>
+        <option value="apple">apple</option>
+        <option value="banana">banana</option>
+        <option value="orange">orange</option>
+        <option value="grape">grape</option>
+        <option value="pineapple">pineapple</option>
+        <option value="mango">mango</option>
+    </select></p>
+
+    <legend>
+
+        
+        
+        <label for="cars">Оберіть автомобіль:</label>
+        <p><select id="cars" name="cars">
+            <optgroup label="Економ клас">
+    <option value="toyota">Toyota</option>
+    <option value="honda">Honda</option>
+    <option value="hyundai">Hyundai</option>
+</optgroup>
+<optgroup label="Середній клас">
+    <option value="bmw">BMW</option>
+    <option value="audi">Audi</option>
+    <option value="volvo">Volvo</option>
+</optgroup>
+
+<optgroup label="Преміум клас">
+    <option value="mercedes">Mercedes</option>
+    <option value="lexus">Lexus</option>
+    <option value="jaguar">Jaguar</option>
+  </optgroup>
+  
+  <optgroup label="Спортивні авто">
+      <option value="ferrari">Ferrari</option>
+      <option value="lamborghini">Lamborghini</option>
+      <option value="porsche">Porsche</option>
+    </optgroup>
+</select></p>
+
+
+
+<p>
+    <label for="audioFiles">Select audio file:</label>
+    <input type="file" id="audioFiles" name="audioFiles[]" accept="audioFiles" multiple>
+</p> 
+
+
+
+
+
+
+    <p><label for="browser">Select browser:</label>
+    <input list="browsers" id="browser" name="browser" placeholder="Start enter...">
+    <datalist id="browsers">
+        <option value="Google Chrome">
+        <option value="Mozilla Firefox">
+        <option value="Microsoft Edge">
+        <option value="Safari">
+        <option value="Opera">
+    </datalist>
+    </p>
+                    
+                    
+        </legend>
+    <p><button type="submit">Submit</button></p>
+    <p><button type="reset">Очистити</button></p>
+    </form>
 </body>
 </html>

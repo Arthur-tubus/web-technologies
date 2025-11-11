@@ -1,0 +1,61 @@
+div{
+    background-color: rgb(255, 165, 0);
+    width: 500px;
+    padding: 20px;
+    color: white;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+ul li {
+  background-repeat: no-repeat;
+  background-size: 36px 36px;
+  padding-left: 25px;
+  
+}
+/* .ullvl1{
+    padding-right: 20px;
+    padding-left: 50px;
+    background-color: rgb(103,158,128);
+
+} */
+ul {
+  background-color: rgb(103, 158, 128);
+  padding-right: 20px;
+  padding-left: 50px;
+}
+/* .ullvl2{
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgb(153, 180, 102);
+    margin-bottom: 10px;
+    padding-left: 40px;
+} */
+ul ul {
+  font-size: 18px;
+  font-style: italic;
+  background-color: rgb(153, 180, 102);
+}
+ul ul li {
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+span{
+    padding: 10px 20px;
+    display: inline-block;
+}
+ul > li> span {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(199, 124, 106);
+    margin-bottom: 10px;
+}
+ul ul span {
+    background-color: rgb(218,106,32);
+}
