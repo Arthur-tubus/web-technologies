@@ -1,0 +1,102 @@
+body{
+
+    margin:20px;
+    text-align:center;
+}
+.sizeBlock{
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+.car1 img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-top:20px;
+}
+.car1 h3{
+    margin:10px 0;
+}
+.car1 p{
+    font-size:14px;
+    padding:0 15px;
+}
+/* Блок 1 */
+.c1{
+    float: left;
+    background:
+    linear-gradient(45deg, green 0%, yellow 20%, blue 75%, orange 100%);
+    background-size: 100%;
+    background-color: #840b2a;
+}
+/* Блок 2 */
+.c2{
+    float: left;
+    background-color: #ffffff;
+    background-image: linear-gradient(
+        45deg,
+      green 20%,
+      transparent 25%,
+      transparent 75%,
+      orange 75%,
+      blue
+    ),
+    linear-gradient(45deg, yellow 20%, transparent 25%, transparent 75%, purple 75%, orange);
+  background-size: 100px 100px;
+  background-position: 0 0, 50px 50px;
+}
+/* Блок 3 */
+.c3{float: left;
+    background-size: 100px;
+  background-image: repeating-linear-gradient(90deg, green, white 50%, blue 50%, yellow);
+}
+/* Блок 4 */
+.c4{
+    float: left;
+  background: linear-gradient(to top left, #ff0 50%, transparent 50.1%) bottom right / 70% 70%
+      no-repeat,
+    linear-gradient(to top right, #008000 50%, transparent 50.1%) bottom left / 50% 50% no-repeat,
+    radial-gradient(circle at top left, orange 0%, transparent 70%),
+    radial-gradient(circle at top right, blue 0%, transparent 70%),
+    radial-gradient(circle at bottom, white 0%, transparent 70%);
+}
+/* Блок 5 */
+.c5{
+        float: left;
+
+background: repeating-linear-gradient(
+      -190deg,
+      rgba(255, 0, 0, 0.5) 30px,
+      rgba(255, 153, 0, 0.5) 60px,
+      rgba(255, 255, 0, 0.5) 90px,
+      rgba(0, 255, 0, 0.5) 120px,
+      rgba(0, 0, 255, 0.5) 150px,
+      rgba(75, 0, 130, 0.5) 180px,
+      rgba(238, 130, 238, 0.5) 210px,
+      rgba(255, 0, 0, 0.5) 230px
+    ),
+    repeating-linear-gradient(
+      190deg,
+      rgba(240, 25, 25, 0.5) 40px,
+      rgba(255, 153, 0, 0.966) 80px,
+      rgba(255, 255, 0, 0.726) 120px,
+      rgba(0, 255, 0, 0.5) 160px,
+      rgba(0, 0, 255, 0.384) 200px,
+      rgba(76, 0, 130, 0.411) 240px,
+      rgba(250, 57, 250, 0.644) 280px,
+      rgba(255, 0, 0, 0.671) 300px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+
+}
