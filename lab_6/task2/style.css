@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+}
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.box {
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    float: left;
+    background: #fff;
+}
+/* Перші 6 блоків з border-radius */
+.b1 { border: 4px solid #baff6a; border-radius: 20px; }
+.b2 { border: 4px solid #baff6a; border-radius: 50px 10px;}
+.b3 { border: 4px solid #baff6a; border-radius: 20px 60px;}
+.b4 {  
+    border: 12px solid;
+    padding: 8px;
+    border-color:  green #baff6a green #baff6a ;
+    border-radius: 100px /25px;
+    
+}
+.b5 {
+    border: 12px solid ; 
+    border-color: #baff6a green #baff6a green;
+    padding: 8px;
+    border-radius: 200px 20px/60px 20px;
+}
+
+.b6{
+    border: solid 15px;
+    border-color: #baff6a #baff6a #baff6a green;
+    border-bottom-right-radius: 100%;
+    padding: 8px;
+}
+
+/* Останні 6 — border-image */
+.img1 {
+    border: 8px solid transparent;
+    border-image: url("../img/border.png") 18 stretch;
+    
+}
+.img2 {
+    border: 8px solid transparent;
+    border-image: url("../img/border.png") 14 repeat round ;
+}
+.img3 {
+    border: 8px solid transparent;
+    border-image-width: 50%;
+    border-image: url("../img/border.png") repeat round;
+    border-image-slice: 34%;
+}
+.img4 {
+    
+    border: 8px solid transparent;
+    border-image: url("../img/border3.png") 20 stretch;
+    
+}
+.img5 {
+    border: 8px solid transparent;
+    border-image: url("../img/border3.png") 14 round;
+}
+.img6 {
+    border: 9px solid transparent;
+    border-image: url("../img/border1.png") 20 stretch;
+}
+.clear {
+    clear: both;
+}

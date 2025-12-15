@@ -1,0 +1,18 @@
+/* ======== ЗАВДАННЯ 1 ======== */
+
+.multicol {
+    column-count: 3;             /* 3 колонки */
+    column-gap: 35px;            /* відстань між ними */
+    column-rule: 5px dashed red; /* пунктирна лінія */
+    text-align: justify;
+    column-rule-style: dotted;
+}
+
+/* FLOAT картинок */
+.float-img {
+    width: 200px;        /* потрібна ширина */
+    margin: 10px 20px;   /* відступи 10–20 px */
+}
+
+.left { float: left; }
+.right { float: right; }

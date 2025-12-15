@@ -1,0 +1,52 @@
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img{
+    width: 100px;
+    vertical-align: middle;
+    
+    float: left;
+}
+b{
+ margin: 0;
+    padding-left: 20px; 
+    font-size: 28px;
+    float: right;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 25px;   
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a{
+    background-color: #ff845d;
+    color: #5b2c86; 
+    padding: 5px 10px;   
+}
+
+.block{
+    display:contents;
+}
+header{
+    text-align: center;
+    padding: 60px 0;
+}
+main{
+    padding: 20px;
+}
